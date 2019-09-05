@@ -1,1 +1,1 @@
-# UBC CPEN 400A: Building Modern Web Applications (Winter 2019)
+# University of British Columbia - CPEN 400A (Winter 2019)
