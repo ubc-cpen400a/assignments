@@ -107,8 +107,3 @@ There are 7 tasks for this assignment (Total 15 Points):
 These deadlines will be strictly enforced; we won't be looking at any commits done after this time-stamp.
 
 * L1A, L1B and L1C - Monday, October 7, 2019 23:59:59 PST
-
-
-## Labs are mandatory on the week of assignment submission:
-
-* If you cannot attend the lab to demo your assignment for any reason, you need to notice Instructors on Piazza ahead of at least 24 hours before the lab section starts. Otherwise, you will be recorded as no attendance and will have marks deducted.
