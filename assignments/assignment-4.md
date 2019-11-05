@@ -117,7 +117,7 @@ There are 4 tasks for this assignment (Total 15 Points):
 
 These deadlines will be strictly enforced; we won't be looking at any commits done after this time-stamp.
 
-* L1A, L1B and L1C - Tuesday, November 11, 2019 23:59:59 PST
+* L1A, L1B and L1C - Tuesday, November 12, 2019 23:59:59 PST
 
 
 ## Labs are mandatory on the week of assignment submission:
