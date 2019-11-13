@@ -1,0 +1,118 @@
+conn = new Mongo();
+db = conn.getDB("cpen400a-bookstore");
+db.dropDatabase();
+imgHost = 'https://cpen400a-bookstore.herokuapp.com/';
+
+result = db.products.insert([
+	{
+		_id: 'Box1',
+		label: 'Box',
+	    price : 5,
+	    quantity : 10,
+	    imageUrl: imgHost+'images/Box1.png',
+	    category: 'Office'
+	},
+	{
+		_id: 'Box2',
+		label: 'Box Set',
+	    price : 10,
+	    quantity : 10,
+	    imageUrl: imgHost+'images/Box2.png',
+	    category: 'Office'
+	},
+	{
+		_id: 'Clothes1',
+		label: 'Black Dress',
+	    price : 20,
+	    quantity : 10,
+	    imageUrl: imgHost+'images/Clothes1.png',
+	    category: 'Clothing'
+	},
+	{
+		_id: 'Clothes2',
+		label: 'Floral Blouse',
+	    price : 30,
+	    quantity : 10,
+	    imageUrl: imgHost+'images/Clothes2.png',
+	    category: 'Clothing'
+	},
+	{
+		_id: 'Jeans',
+		label: 'Jeans',
+	    price : 50,
+	    quantity : 5,
+	    imageUrl: imgHost+'images/Jeans.png',
+	    category: 'Clothing'
+	},
+	{
+		_id: 'KeyboardCombo',
+		label: 'Gaming Keyboard',
+		price : 40,
+		quantity : 5,
+		imageUrl: imgHost+'images/KeyboardCombo.png',
+	    category: 'Technology'
+	},
+	{
+		_id: 'Keyboard',
+		label: 'Backlit Keyboard',
+	    price : 20,
+	    quantity : 5,
+	    imageUrl: imgHost+'images/Keyboard.png',
+	    category: 'Technology'
+	},
+	{
+		_id: 'Mice',
+		label: 'Mouse',
+		price : 20,
+	    quantity : 10,
+	    imageUrl: imgHost+'images/Mice.png',
+	    category: 'Technology'
+	},
+	{
+		_id: 'PC1',
+		label: 'Barebone PC - ATX',
+	    price : 350,
+	    quantity : 5,
+	    imageUrl: imgHost+'images/PC1.png',
+	    category: 'Technology'
+	},
+	{
+		_id: 'PC2',
+		label: 'Barebone PC + Keyboard',
+	    price : 400,
+	    quantity : 5,
+	    imageUrl: imgHost+'images/PC2.png',
+	    category: 'Technology'
+	},
+	{
+		_id: 'PC3',
+		label: 'Barebone PC - mATX',
+	    price : 300,
+	    quantity : 5,
+	    imageUrl: imgHost+'images/PC3.png',
+	    category: 'Technology'
+	},
+	{
+		_id: 'Tent',
+		label: 'Tent for 4',
+	    price : 100,
+	    quantity : 5,
+	    imageUrl: imgHost+'images/Tent.png',
+	    category: 'Outdoor'
+	}
+]);
+
+print(result);
+
+result = db.orders.insert([
+	{
+		client_id: '12345678',
+		cart: {
+			Box1: 2,
+			Box2: 1
+		},
+	    total: 20
+	}
+]);
+
+print(result);
