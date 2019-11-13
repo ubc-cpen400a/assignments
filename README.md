@@ -7,3 +7,5 @@ This repo contains the tutorials and necessary materials needed for assignments.
 2. [Assignment-2](assignments/assignment-2.md)
 3. [Assignment-3](assignments/assignment-3.md)
 4. [Assignment-4](assignments/assignment-4.md)
+4. [Assignment-5](assignments/assignment-5.md)
+
