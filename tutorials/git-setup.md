@@ -8,7 +8,7 @@ Go to [https://git-scm.com/downloads](https://git-scm.com/downloads) and downloa
 
 ## Setting up Github
 
-If you have not already, [create a Github account](https://github.com). You will need to **share your Github username with the TA** to get an invitation to your assignment repository.
+If you have not already, [create a Github account](https://github.com). You will need to **share your Github username with the TA via private piazza note** to get an invitation to your assignment repository.
 
 
 # Setting up your assignment repository
