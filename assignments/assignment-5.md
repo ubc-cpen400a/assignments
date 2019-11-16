@@ -175,6 +175,17 @@ ajaxPost("http://localhost:3000/checkout",
     * The handler for this endpoint should use `db.addOrder` to insert the order into the database.
     * If the database operation was successful, attach the resolved ID to the response as a JSON object.
     * If the database operation was unsuccessful, set the response status to 500 and add an error message.
+    
+## Test
+To test your code, insert the following script tags within the head tag of your page
+```
+<script src="http://ece.ubc.ca/~kumseok/src/cpen400a/jquery-3.3.1.min.js" type="text/javascript"></script>
+<script src="http://ece.ubc.ca/~kumseok/src/cpen400a/test-5.js" type="text/javascript"></script>
+```
+You will see a red button on the top-right corner of your web page. Click it to test your code.
+Watch out for the alert messages which tell you any missing components/functionalities. You are responsible for ensuring that all the functionalities above are implemented correctly - the tests are only there to help you. We reserve the right to test your code with other test cases than the above.
+
+* The feedback you get from the test script is for your debugging purpose only; **they are not used directly for grading.**
 
 
 ## Marking
